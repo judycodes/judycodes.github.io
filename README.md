@@ -14,7 +14,7 @@ Since then, I have been fascinated by coding and pursued more knowledge.
 Eventually, I learned about responsive web design and challenged my skills to create this website: https://reallytru.github.io/thecentralline/
 I was not alone in my progress. I continued to work with others to create: https://reallytru.github.io/projectcodeii/
 
-I continue to improve and learn code in the hopes to enter the programming field.
+I continue to improve and learn code in the hopes of entering the programming field.
 
 Soon, I will present a customized portfolio of my projects and coding adventures here:
 
