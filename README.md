@@ -15,10 +15,12 @@ Eventually, I learned about responsive web design and challenged my skills to cr
 I was not alone in my progress. I continued to work with others to create <a href="https://reallytru.github.io/projectcodeii/">a homepage for the program I participated in.</a>
 
 Projects I have been working on:
-<a href="https://judycodes.github.io/recharge/">FreeCodeCamp Responsive Web Design Project - Product Landing Page: ReCharge</a>
-<a href="https://judycodes.github.io/newyorker/">FreeCodeCamp Responsive Web Design Project - Survey Form: Are You A True New Yorker?</a>
-<a href="https://judycodes.github.io/jkrowling/">FreeCodeCamp Responsive Web Design Project - Tribute Page: J. K. Rowling - With Words of Wisdom and Wonder</a>
-<a href="https://judycodes.github.io/jstechdoc/">FreeCodeCamp Responsive Web Design Project - Technical Documentation Page: JavaScript</a>
+<ul>
+  <li><a href="https://judycodes.github.io/recharge/">FreeCodeCamp Responsive Web Design Project - Product Landing Page: ReCharge</a></li>
+  <li><a href="https://judycodes.github.io/newyorker/">FreeCodeCamp Responsive Web Design Project - Survey Form: Are You A True New Yorker?</a></li>
+  <li><a href="https://judycodes.github.io/jkrowling/">FreeCodeCamp Responsive Web Design Project - Tribute Page: J. K. Rowling - With Words of Wisdom and Wonder</a></li>
+  <li><a href="https://judycodes.github.io/jstechdoc/">FreeCodeCamp Responsive Web Design Project - Technical Documentation Page: JavaScript</a></li>
+ </ul> 
 
 I continue to improve and learn code in the hopes of entering the programming field.
 
