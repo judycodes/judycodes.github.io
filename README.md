@@ -11,8 +11,7 @@ My first independent efforts at using HTML and CSS could be viewed <a href="http
 In that program, I also worked with other new coders to create this <a href="https://reallytru.github.io/groupproject/">group project</a>
 
 Since then, I have been fascinated by coding and pursued more knowledge. 
-Eventually, I learned about responsive web design and challenged my skills to create this website about <a href="https://reallytru.github.io/thecentralline/">New York's Subway System.</a>
-I was not alone in my progress. I continued to work with others to create <a href="https://reallytru.github.io/projectcodeii/">a homepage for the program I participated in.</a>
+Eventually, I learned about responsive web design and challenged my skills to create this website about <a href="https://reallytru.github.io/thecentralline/">New York's Subway System,</a> applying my knowledge about HTML, CSS, Bootstrap, JavaScript, JQuery, and more! I was not alone in my progress. I continued to work with others to create <a href="https://reallytru.github.io/projectcodeii/">a homepage for the program I participated in.</a>
 
 Projects I have been working on:
 <ul>
