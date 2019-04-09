@@ -7,20 +7,7 @@
 This is my attempt at understanding and exploring the world of Github and Code. 
 
 I am a beginner to coding and only gained exposure to HTML and CSS through Project Code at NYPL. 
-My first independent efforts at using HTML and CSS could be viewed <a href="https://reallytru.github.io/">right here.</a>
-In that program, I also worked with other new coders to create this <a href="https://reallytru.github.io/groupproject/">group project</a>
-
 Since then, I have been fascinated by coding and pursued more knowledge. 
-Eventually, I learned about responsive web design and challenged my skills to create this website about <a href="https://reallytru.github.io/thecentralline/">New York's Subway System,</a> applying my knowledge about HTML, CSS, Bootstrap, JavaScript, JQuery, and more! I was not alone in my progress. I continued to work with others to create <a href="https://reallytru.github.io/projectcodeii/">a homepage for the program I participated in.</a>
+I have been self-studying gradually through a variety of online means, such as FreeCodeCamp, Codecademy, Udemy, SoloLearn, and countless others. I continue to improve and learn code in the hopes of entering the programming field.
 
-Projects I have been working on:
-<ul>
-  <li><a href="https://judycodes.github.io/recharge/">FreeCodeCamp Responsive Web Design Project - Product Landing Page: ReCharge</a></li>
-  <li><a href="https://judycodes.github.io/newyorker/">FreeCodeCamp Responsive Web Design Project - Survey Form: Are You A True New Yorker?</a></li>
-  <li><a href="https://judycodes.github.io/jkrowling/">FreeCodeCamp Responsive Web Design Project - Tribute Page: J. K. Rowling - With Words of Wisdom and Wonder</a></li>
-  <li><a href="https://judycodes.github.io/jstechdoc/">FreeCodeCamp Responsive Web Design Project - Technical Documentation Page: JavaScript</a></li>
- </ul> 
-
-I continue to improve and learn code in the hopes of entering the programming field.
-
-Soon, I will present a customized portfolio of my projects and coding adventures here @ <a href="http://judycodes.github.io/">judycodes on github.</a>
+Soon, I will present a customized portfolio of my projects and coding adventures here @ <a href="http://judycodes.github.io/">judycodes on github.</a> In the meantime, you can check out the portfolio I created to meet the FreeCodeCamp Responsive Web Design Certification (300 hours) requirements: <a href="https://judycodes.github.io/codelinked/">HERE.</a> 
