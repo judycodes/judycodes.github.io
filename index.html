@@ -22,7 +22,7 @@
 
     <header class="flex col">
         <!-- NAVBARS -->
-        <nav id="mobile_nav">
+        <nav id="mobile_nav" class="flex">
             <a href="#welcome-section" class="nav-link"><i class="fa fa-home fa-lg" aria-hidden="true"></i></a>
             <a href="#about" class="nav-link"><i class="fa fa-user-circle-o fa-lg" aria-hidden="true"></i></a>
             <a href="#projects" class="nav-link"><i class="fa fa-folder-open-o fa-lg" aria-hidden="true"></i></a>
@@ -42,31 +42,33 @@
                 <h1 id="name">judy truong</h1>
                 <div class="flex col brief_about">
                     <p>Software Engineer</p>
-                    <p>based in nyc</p>
+                    <p>based in new york city</p>
                     <p>passionate about building</p>
-                    <p>code that makes a difference</p>
+                    <p>code to make a difference</p>
                 </div>
                 
-                <button id="get_in_touch">get in touch</button>
+                <button id="get_in_touch" class="tilt">get in touch</button>
             </div>
         </div>
     </header>
 
     <main>
         <!-- ABOUT -->
-        <section id="about_section">
-            <h2 id="about_headline" class="flex"><span class="sq_bracket">[</span>about<span class="sq_bracket">]</span></h2>
-            <!-- ABOUT ME INFO -->
-            <div id="about_content" class="flex col">
-            <p id="personal_brand">As a teacher and software engineer, I am driven by my desire to help others succeed in their endeavors. Leveraging my toolkit of soft skills, I translate complex ideas and code into easily digestible and approachable solutions that anticipate and satisfy client needs. Through collaboration, study, and resolve, I strive to build enterprising applications that empower and make positive impact on lives.</p>
+        <section id="about" class="flex col">
 
-            <!--on click resume modal will show-->
-            <button id="resume_btn">view resume</button>
+            <h2 id="about_headline" class="flex"><span class="sq_bracket">[</span>about<span class="sq_bracket">]</span></h2>
+
+            <!-- ABOUT ME INFO -->
+            <div id="about_content" class="flex">
+            <p id="personal_brand">As a teacher and software engineer, I am driven by my desire to help others succeed in their endeavors. Leveraging my toolkit of soft skills, I translate complex ideas and code into easily digestible and approachable solutions that anticipate and satisfy client needs. Through collaboration, study, and resolve, I strive to build enterprising applications that empower lives and make positive impact in overlooked fields.</p>
+
+            <!--on click resume will show resume iframe-->
+            <button class="tilt">view resume</button>
             </div>
 
             <!-- RESUME -->
             <div id="resume">
-
+                <a href="files/judy_truong_2019.pdf" download id="download_resume_btn" class="flex">download resume <i class="fa fa-download"></i></a>
             </div>
 
             <!-- SKILLS -->
@@ -77,6 +79,39 @@
 
         <!-- PROJECTS -->
         <section id="projects">
+            <h2 id="projects_headline" class="flex"><span class="sq_bracket">[</span>projects<span class="sq_bracket">]</span></h2>
+
+            <div class="project">
+                <img src="" alt="" class="screenshot">
+                <div class="project_content"></div>
+                <a href="" class="project_link"></a>
+            </div>
+            <div class="project">
+                <img src="" alt="" class="screenshot">
+                <div class="project_content"></div>
+                <a href="" class="project_link"></a>
+            </div>
+            <div class="project">
+                <img src="" alt="" class="screenshot">
+                <div class="project_content"></div>
+                <a href="" class="project_link"></a>
+            </div>
+            <div class="project">
+                <img src="" alt="" class="screenshot">
+                <div class="project_content"></div>
+                <a href="" class="project_link"></a>
+            </div>
+            <div class="project">
+                <img src="" alt="" class="screenshot">
+                <div class="project_content"></div>
+                <a href="" class="project_link"></a>
+            </div>
+            <div class="project">
+                <img src="" alt="" class="screenshot">
+                <div class="project_content"></div>
+                <a href="" class="project_link"></a>
+            </div>
+
         </section>
     </main>
 
