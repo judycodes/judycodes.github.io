@@ -47,7 +47,7 @@
                     <p>code to make a difference</p>
                 </div>
                 
-                <button id="get_in_touch" class="tilt">get in touch</button>
+                <a href="#contact" id="get_in_touch" class="flex tilt">get in touch</a>
             </div>
         </div>
     </header>
@@ -62,63 +62,73 @@
             <div id="about_content" class="flex">
             <p id="personal_brand">As a teacher and software engineer, I am driven by my desire to help others succeed in their endeavors. Leveraging my toolkit of soft skills, I translate complex ideas and code into easily digestible and approachable solutions that anticipate and satisfy client needs. Through collaboration, study, and resolve, I strive to build enterprising applications that empower lives and make positive impact in overlooked fields.</p>
 
-            <!--on click resume will show resume iframe-->
-            <button class="tilt">view resume</button>
+            <p class="personal_content"></p>
+
+            <!-- SKILLS -->
+            <div id="skills_stack" class="flex col">
+                <h3>&laquo; Skills &amp; Technologies &raquo;</h3>
+                <p id="stack">react.js / redux / javascript (es6) / restful api / ajax / java / docker / html5 / css3 / bootstrap</p>
+                <p>&amp; continually learning more...</p>
+            </div>    
+
+            <!--desktop view - on click resume will show resume iframe-->
+            <button id="view_resume_btn" class="tilt none">view resume</button>
             </div>
 
             <!-- RESUME -->
-            <div id="resume">
+            <div id="resume" class="flex col">
+
+                <iframe id="resume_pdf" src="/files/judy_truong_2019.pdf#toolbar=0" width="100%" height="500px" class="none"></iframe>
+
                 <a href="files/judy_truong_2019.pdf" download id="download_resume_btn" class="flex">download resume <i class="fa fa-download"></i></a>
             </div>
 
-            <!-- SKILLS -->
-            <div id="skills_stack">
 
-            </div>
         </section>
 
         <!-- PROJECTS -->
         <section id="projects">
             <h2 id="projects_headline" class="flex"><span class="sq_bracket">[</span>projects<span class="sq_bracket">]</span></h2>
 
-            <div class="project">
-                <img src="" alt="" class="screenshot">
-                <div class="project_content"></div>
-                <a href="" class="project_link"></a>
+            <div class="project flex col">
+                <img src="imgs/foodhunt.png" alt="food hunt" class="screenshot">
+                <p class="project_content">Food Hunt</p>
+                <div class="project_link_btns flex">
+                <a href="https://judycodes.github.io/foodHunt/" class="project_link">live</a>
+                <a href="https://github.com/judycodes/foodHunt" class="project_link">code</a>
+                </div>
             </div>
-            <div class="project">
-                <img src="" alt="" class="screenshot">
-                <div class="project_content"></div>
-                <a href="" class="project_link"></a>
+            <div class="project flex col">
+                <img src="imgs/centralline.png" alt="" class="screenshot" id="centralline">
+                <p class="project_content">The Central Line</p>
+                <div class="project_link_btns flex">
+                <a href="https://reallytru.github.io/thecentralline/" class="project_link">live</a>
+                <a href="https://github.com/reallytru/thecentralline" class="project_link">code</a>
+                </div>
             </div>
-            <div class="project">
-                <img src="" alt="" class="screenshot">
-                <div class="project_content"></div>
-                <a href="" class="project_link"></a>
+            <div class="project flex col">
+                <img src="imgs/weatherapp.png" alt="" class="screenshot">
+                <p class="project_content">Current Weather</p>
+                <div class="project_link_btns flex">
+                <a href="https://judycodes.github.io/weatherApp/" class="project_link">live</a>
+                <a href="https://github.com/judycodes/weatherApp" class="project_link">code</a>
+                </div>
             </div>
-            <div class="project">
-                <img src="" alt="" class="screenshot">
-                <div class="project_content"></div>
-                <a href="" class="project_link"></a>
-            </div>
-            <div class="project">
-                <img src="" alt="" class="screenshot">
-                <div class="project_content"></div>
-                <a href="" class="project_link"></a>
-            </div>
-            <div class="project">
-                <img src="" alt="" class="screenshot">
-                <div class="project_content"></div>
-                <a href="" class="project_link"></a>
-            </div>
-
+            <div class="project flex col">
+                    <img src="imgs/nycreads.png" alt="" class="screenshot">
+                    <p class="project_content">NYC Reads 365</p>
+                    <div class="project_link_btns flex">
+                    <a href="https://judycodes.github.io/techworks_clientpg/" class="project_link">live</a>
+                    <a href="https://github.com/judycodes/techworks_clientpg" class="project_link">code</a>
+                    </div>
+                </div>
         </section>
     </main>
 
     <footer>
         <!-- CONTACT -->
-        <div id="contact">
-
+        <div id="contact" class="flex">
+            <a href="mailto: judymtruong@gmail.com">Email: judymtruong@gmail.com</a>
         </div>
     </footer>
     <!--JS-->
