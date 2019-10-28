@@ -88,11 +88,13 @@ button:focus, button:active, button:hover, #get_in_touch:hover, .project_link:ho
     margin-top: 10px;
     border-radius: 2px;
     border: 1px solid #070d59;
+    margin-bottom: 20px;
 }
 
 #view_resume_btn {
     padding: 10px;
     margin: 20px 0px;
+    display:none;
 }
 
 .project_link {
@@ -207,7 +209,6 @@ main {
 section {
     justify-content: center;
     align-items: center;
-    border: 1px red solid;
     padding: 40px 20px;
     box-shadow: 0 4px 6px 0 rgba(0,0,0,0.3);
     margin: 20px 0px;
@@ -231,7 +232,6 @@ section {
 }
 
 #about_content {
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     flex: 1;
@@ -311,15 +311,34 @@ section {
 
 
 /* MEDIA QUERIES */
-/* DESKTOP */
-/* 
-
-
+/* DESKTOP & TABLET */
+@media only screen and (min-width: 700px) {
 body {
-    padding: 0px 100px 50px;
     overflow-x: visible;
 }
-*/
+
+#about_personal {
+    padding: 10px 0px; 
+}
+
+#personal_brand {
+    text-indent: 50px;
+    text-align: justify;
+    padding: 0px 55px;
+    margin-bottom: 20px;
+}    
+
+.personal_content {
+    padding: 0px 70px;
+}
+
+#view_resume_btn {
+    display:block;
+}
+
+#download_resume_btn {
+    margin-bottom: 0px;
+}
 
 /* HOVER */
 a:hover {
@@ -329,22 +348,6 @@ a:hover {
 i:hover {
     color: #5893d4;
 }
-
-/* 
-
-#personal_brand, .personal_content {
-    text-indent: 20px;
-    text-align: left;
-}    
-
-#view_resume_btn {
-    display:block;
-}
-
-#resume_pdf {
-    display: block;
-    margin-bottom: 10px;
-} */
 
 @keyframes tilt {
   0% {transform: rotate(0deg);}
@@ -356,4 +359,7 @@ i:hover {
 .tilt:hover {
   animation:tilt 2s ease alternate infinite;
 }
+
+}
+
 
