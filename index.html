@@ -20,19 +20,19 @@
 </head>
 <body>
 
-    <header class="flex col">
+    <header id="header" class="flex col">
         <!-- NAVBARS -->
-        <nav id="mobile_nav" class="flex">
-            <a href="#welcome-section" class="nav-link"><i class="fa fa-home fa-lg" aria-hidden="true"></i></a>
+        <nav id="mobile_nav">
+            <a href="#header" class="nav-link"><i class="fa fa-home fa-lg" aria-hidden="true"></i></a>
             <a href="#about" class="nav-link"><i class="fa fa-user-circle-o fa-lg" aria-hidden="true"></i></a>
             <a href="#projects" class="nav-link"><i class="fa fa-folder-open-o fa-lg" aria-hidden="true"></i></a>
             <a href="#contact" class="nav-link"><i class="fa fa-paper-plane fa-lg" aria-hidden="true"></i></a>
         </nav>
-        <nav id="desktop_nav" class="none">
-            <a href="#welcome-section" class="nav-link"><i class="fa fa-home fa-lg" aria-hidden="true"></i></a>
-            <a href="#about" class="nav-link"><i class="fa fa-user-circle-o fa-lg" aria-hidden="true"></i></a>
-            <a href="#projects" class="nav-link"><i class="fa fa-folder-open-o fa-lg" aria-hidden="true"></i></a>
-            <a href="#contact" class="nav-link"><i class="fa fa-paper-plane fa-lg" aria-hidden="true"></i></a>
+        <nav id="desktop_nav">
+            <a href="#hero" class="nav-link">HOME</a>
+            <a href="#about" class="nav-link">ABOUT</a>
+            <a href="#projects" class="nav-link">PROJECTS</a>
+            <a href="#contact" class="nav-link">CONTACT</a>
         </nav>
 
         <!-- HERO -->
@@ -79,14 +79,12 @@
             </div>
 
             <a href="files/judy_truong_2019.pdf" download id="download_resume_btn" class="flex">download resume <i class="fa fa-download"></i></a>            
-
-            <!--desktop view - on click resume will show resume iframe-->
             <button id="view_resume_btn" class="tilt">view resume</button>
 
             </div>
 
             <!-- RESUME -->
-            <iframe id="resume_pdf" src="/files/judy_truong_2019.pdf#toolbar=0" width="700px" height="985px" class="none"></iframe>
+            <iframe id="resume_pdf" src="/files/judy_truong_2019.pdf#toolbar=0" width="700px" height="985px" class="none" type="application/pdf"></iframe>
 
         </section>
 
@@ -94,6 +92,7 @@
         <section id="projects">
             <h2 id="projects_headline" class="flex"><span class="sq_bracket">[</span>projects<span class="sq_bracket">]</span></h2>
 
+        <div id="project_list" class="flex col">
             <div class="project flex col">
                 <img src="imgs/foodhunt.png" alt="food hunt" class="screenshot">
                 <p class="project_content">Food Hunt</p>
@@ -104,7 +103,9 @@
                 <a href="https://github.com/judycodes/foodHunt" class="project_link" target="_blank">code</a>
                 </div>
             </div>
-            <hr>
+
+            <hr class="project_separator">
+
             <div class="project flex col">
                 <img src="imgs/centralline.png" alt="" class="screenshot" id="centralline">
                 <p class="project_content">The Central Line</p>
@@ -115,7 +116,9 @@
                 <a href="https://github.com/reallytru/thecentralline" class="project_link" target="_blank">code</a>
                 </div>
             </div>
-            <hr>
+
+            <hr class="project_separator">
+
             <div class="project flex col">
                 <img src="imgs/weatherapp.png" alt="" class="screenshot">
                 <p class="project_content">Current Weather</p>
@@ -126,7 +129,9 @@
                 <a href="https://github.com/judycodes/weatherApp" class="project_link" target="_blank">code</a>
                 </div>
             </div>
-            <hr>
+
+            <hr class="project_separator">
+
             <div class="project flex col">
                     <img src="imgs/nycreads.png" alt="" class="screenshot">
                     <p class="project_content">NYC Reads 365</p>
@@ -137,6 +142,8 @@
                     <a href="https://github.com/judycodes/techworks_clientpg" class="project_link" target="_blank">code</a>
                     </div>
                 </div>
+            </div>    
+
         </section>
     </main>
 
