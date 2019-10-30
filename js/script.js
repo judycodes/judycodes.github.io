@@ -22,6 +22,12 @@ for(let i = 0; i < project_read_btns.length; i++){
     project_read_btns[i].addEventListener('click', openProject, false);
 }
 
+let close_project_btns = document.querySelectorAll('.closeBtn');
+
+for(let i = 0; i < close_project_btns.length; i++){
+    close_project_btns[i].addEventListener('click', closeProject, false);
+}
+
 function openProject(e) {
     
     if (e.target == e.currentTarget) {
@@ -34,12 +40,19 @@ function openProject(e) {
         const projectName = clickedProject.substring(0, clickedProject.length - 3);
         console.log(projectName, "project name")
         document.getElementById(`${projectName}`).style.width = "100%";
-
+    
     }
     e.stopPropagation();
     
   }
   
-function closeProject() {
-    document.getElementById("foodhunt_info").style.width = "0%";
+function closeProject(e) {
+    
+        //console.log(e.currentTarget, "e.currentTarget - x button");
+        //console.log(e.currentTarget.parentNode.id, "close currentTarget's id - div");
+        document.getElementById(`${e.currentTarget.parentNode.id}`).style.width = "0%";
+        
+    
+    e.stopPropagation();
+    
   }

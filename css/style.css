@@ -342,7 +342,7 @@ section {
   
 }
 
-.project_info {
+.project_info, .closeBtn {
     color: #fff;
 }
 
