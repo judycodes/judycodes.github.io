@@ -15,3 +15,31 @@ view_resume.addEventListener('click', () => {
     
 });
 
+//desktop - open project content
+let project_read_btns = document.querySelectorAll('.project_read');
+
+for(let i = 0; i < project_read_btns.length; i++){
+    project_read_btns[i].addEventListener('click', openProject, false);
+}
+
+function openProject(e) {
+    
+    if (e.target == e.currentTarget) {
+        console.log(e.currentTarget, "currentTarget");
+        console.log(e.target, "e.target");
+        console.log(e.target.id, "project id");
+        let clickedProject = e.target.id;
+        console.log(clickedProject, "clicked project id");
+
+        const projectName = clickedProject.substring(0, clickedProject.length - 3);
+        console.log(projectName, "project name")
+        document.getElementById(`${projectName}`).style.width = "100%";
+
+    }
+    e.stopPropagation();
+    
+  }
+  
+function closeProject() {
+    document.getElementById("foodhunt_info").style.width = "0%";
+  }

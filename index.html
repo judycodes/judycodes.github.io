@@ -21,6 +21,7 @@
 <body>
 
     <header id="header" class="flex col">
+            
         <!-- NAVBARS -->
         <nav id="mobile_nav">
             <a href="#header" class="nav-link"><i class="fa fa-home fa-lg" aria-hidden="true"></i></a>
@@ -99,7 +100,7 @@
                 <p class="project_content">Recipe and Restaurant Finder</p>
                 <div class="project_link_btns flex">
                 <a href="https://judycodes.github.io/foodHunt/" class="project_link" target="_blank">live</a>
-                <a href="" class="project_link" target="_blank">read</a>
+                <button class="project_link project_read" id="foodhunt_infoBtn">read</button>
                 <a href="https://github.com/judycodes/foodHunt" class="project_link" target="_blank">code</a>
                 </div>
             </div>
@@ -112,7 +113,7 @@
                 <p class="project_content">Responsive Informative Website</p>
                 <div class="project_link_btns flex">
                 <a href="https://reallytru.github.io/thecentralline/" class="project_link" target="_blank">live</a>
-                <a href="" class="project_link" target="_blank">read</a>
+                <button class="project_link project_read" id="centralline_infoBtn">read</button>
                 <a href="https://github.com/reallytru/thecentralline" class="project_link" target="_blank">code</a>
                 </div>
             </div>
@@ -125,7 +126,7 @@
                 <p class="project_content">Weather Data By Zip Code</p>
                 <div class="project_link_btns flex">
                 <a href="https://judycodes.github.io/weatherApp/" class="project_link" target="_blank">live</a>
-                <a href="" class="project_link" target="_blank">read</a>
+                <button class="project_link project_read" id="weather_infoBtn">read</button>
                 <a href="https://github.com/judycodes/weatherApp" class="project_link" target="_blank">code</a>
                 </div>
             </div>
@@ -138,19 +139,38 @@
                     <p class="project_content">Single-Page Informative Website</p>
                     <div class="project_link_btns flex">
                     <a href="https://judycodes.github.io/techworks_clientpg/" class="project_link" target="_blank">live</a>
-                    <a href="" class="project_link" target="_blank">read</a>
+                    <button class="project_link project_read" id="nycreads_infoBtn">read</button>
                     <a href="https://github.com/judycodes/techworks_clientpg" class="project_link" target="_blank">code</a>
                     </div>
                 </div>
             </div>    
 
         </section>
+
+<!-- PROJECT HIDDEN INFO -->
+<div id="foodhunt_info">
+    <h1 class="project_info">food content</h1>
+</div>
+
+<div id="centralline_info">
+        <h1 class="project_info">central content</h1>
+</div>
+
+<div id="weather_info">
+        <h1 class="project_info">weather content</h1>
+</div>
+
+<div id="nycreads_info">
+        <h1 class="project_info">read content</h1>
+</div>
+
     </main>
 
     <footer>
         <!-- CONTACT -->
         <div id="contact" class="flex col">
             <a href="mailto: judymtruong@gmail.com" id="email">Contact Me</a>
+
             <div id="social-media">
             <a href="" class="linkedin" target="_blank"><i class="fa fa-linkedin"></i></a>
             <a href="" class="github" target="_blank"><i class="fa fa-github"></i></a>
@@ -158,6 +178,7 @@
             <a href="" class="fcc" target="_blank"><i class="fa fa-free-code-camp"></i></a>
             </div>    
         </div>
+        
     </footer>
     <!--JS-->
     <script src="js/script.js"></script>
