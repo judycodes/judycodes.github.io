@@ -102,10 +102,22 @@ button:focus, button:active, button:hover, #get_in_touch:hover, .project_link:ho
     padding: 10px 15px;
 }
 
+.closeBtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+.closeBtn:hover {
+    font-size: 59px;
+}
+
 #email {
     text-align: center;
     margin-bottom: 20px;
 }
+
 
 /* DISPLAY */
 .none {
@@ -274,6 +286,12 @@ section {
     border-bottom: 1px solid #0FA3B1;
 }
 
+#skills_stack_headline {
+    font-size: 1.4em;
+    padding: 5px 10px;
+    text-decoration: underline rgb(65, 105, 225);
+}
+
 #skills_stack {
     justify-content: center;
     align-items: center;
@@ -339,12 +357,29 @@ section {
   background-color: rgba(0,0,0, 0.9);
   overflow-x: hidden;
   transition: 0.5s;
-  
 }
 
-.project_info, .closeBtn {
-    color: #fff;
+.project_info {
+    height: 100vh;
+    width: 70%;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 50px;
 }
+
+.project_title, .closeBtn, .description, .challenges, .mistakes, .conflicts, .memories, .reflection {
+    color: #f1f1f1;
+}
+
+.project_info > h3 {
+    margin-top: 10px;
+}
+
+.description {
+    line-height: 1;
+    text-indent: 30px;
+}
+
 
 /* FOOTER */
 #contact {
