@@ -287,9 +287,9 @@ section {
 }
 
 #skills_stack_headline {
-    font-size: 1.4em;
+    font-size: 1.6em;
     padding: 5px 10px;
-    text-decoration: underline rgb(65, 105, 225);
+    color: rgb(65, 105, 225);
 }
 
 #skills_stack {
