@@ -4,10 +4,12 @@
 
 ## Hello world!
 
-This is my attempt at understanding and exploring the world of Github and Code. 
+Hi, I'm Judy.
+Thank you for viewing my portfolio! Like any technical project, this is a work in progress. Please continue to follow me on my tech journey!
+If you would like to contact me, find me <a href="www.linkedin.com/in/judy-truong">@judy-truong on LinkedIn.</a>
 
-I am a beginner to coding and only gained exposure to HTML and CSS through Project Code at NYPL. 
-Since then, I have been fascinated by coding and pursued more knowledge. 
-I have been self-studying gradually through a variety of online means, such as FreeCodeCamp, Codecademy, Udemy, SoloLearn, and countless others. I continue to improve and learn code in the hopes of entering the programming field.
+====================
 
-Soon, I will present a customized portfolio of my projects and coding adventures here @ <a href="http://judycodes.github.io/">judycodes on github.</a> In the meantime, you can check out the portfolio I created to meet the FreeCodeCamp Responsive Web Design Certification (300 hours) requirements: <a href="https://judycodes.github.io/codelinked/">HERE.</a> 
+## About Me
+
+As a teacher and software engineer, I am driven by my desire to help others succeed in their endeavors. Leveraging my toolkit of soft skills, I translate complex ideas and code into easily digestible and approachable solutions that anticipate and satisfy client needs. Through collaboration, study, and resolve, I build useful applications that empower lives and make positive impact in overlooked fields.
