@@ -299,7 +299,7 @@ section {
     margin: 10px;
 }
 
-#stack { 
+#stack {
     padding: 0 10px;
     margin: 5px 0px;
 }
@@ -322,7 +322,7 @@ section {
     padding: 0;
     text-align:center;
 }
- 
+
 .screenshot {
     width: 250px;
     height: 150px;
@@ -346,7 +346,7 @@ section {
 }
 
 /* HIDDEN PROJECT CONTENT */
-#foodhunt_info, #centralline_info, #weather_info, #nycreads_info {
+#foodhunt_info, #centralline_info, #weather_info, #nycreads_info, #increadible_info {
   height: 100%;
   width: 0;
   position: fixed;
@@ -415,7 +415,7 @@ header {
 }
 
 #about_personal {
-    padding: 10px 0px; 
+    padding: 10px 0px;
 }
 
 #personal_brand {
@@ -423,7 +423,7 @@ header {
     text-align: justify;
     padding: 0px 55px;
     margin-bottom: 20px;
-}    
+}
 
 .personal_content {
     padding: 0px 70px;
@@ -472,5 +472,3 @@ i:hover, .nav-link:hover, i:visited {
 }
 
 }
-
-
